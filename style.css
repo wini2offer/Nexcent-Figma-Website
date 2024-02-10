@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background-color: #f5f7fa;
+  padding-block: 20px;
+}
+
+.wrapper {
+  padding-inline: 144px;
+}
+
+header .wrapper nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+header .wrapper .user-manager .login {
+  color: #28cb8b;
+  border: none;
+  background-color: transparent;
+}
+
+header .wrapper .user-manager {
+  display: flex;
+  gap: 24px;
+}
+
+header .wrapper .user-manager .signUp,
+.learn,
+.register {
+  color: white;
+  border: none;
+  background-color: #43a046;
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+
+/* hero section styling */
+.assign {
+  color: #43a046;
+}
+
+.hero .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 100px;
+  background-color: #f5f7fa;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 16px;
+  margin-block: 24px;
+  font-weight: 400;
+  color: #717171;
+}
+
+/* jobs offered section styling */
+.jobs-offered .wrapper {
+  text-align: center;
+}
+
+.jobs-offered .wrapper h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-block: 24px;
+}
+
+.company-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #4d4d4d;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #4d4d4d;
+}
+
+.management .community-management {
+  margin-block: 60px;
+  text-align: center;
+}
+
+.management .organizations {
+  display: flex;
+  justify-content: space-around;
+  margin-block: 24px;
+}
+
+.org {
+  text-align: center;
+  width: 244px;
+}
+
+.pixelgrade .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18191F;
+}
