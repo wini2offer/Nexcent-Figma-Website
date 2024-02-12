@@ -128,5 +128,97 @@ h4 {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  color: #18191F;
+  color: #18191f;
 }
+
+/* statistic styling */
+.investment {
+  margin-block: 24px;
+  background-color: #f5f7fa;
+  padding-block: 50px;
+}
+
+.investment .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.investment .wrapper .statistics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.investment .wrapper .statistics .stats {
+  display: flex;
+  gap: 20px;
+}
+
+.investment .wrapper .statisticText h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+
+/* site footer styling */
+.siteFooter .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.siteFooter .wrapper h2 {
+  text-decoration: underline;
+}
+
+.siteFooter .wrapper p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+}
+
+.customerSection .wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 78px;
+    align-items: center;
+    margin-block: 24px;
+    background-color: #f5f7fa;
+    padding-block: 50px;
+  
+}
+.customerSection .meet{
+  width: 748px;
+  height: 324px;
+  gap: 32px;
+  /* padding-block: 50px; */
+}
+
+
+
+.customerSection .companyLogo{
+    display: flex;
+    gap: 16;
+    justify-content: space-between;
+   
+}
+.customerSection .companyLogo .buttons{
+    background-color: transparent;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #4CAF4F;
+    border: none;
+}
+
+
