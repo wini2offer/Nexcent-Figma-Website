@@ -38,6 +38,7 @@ header .wrapper .user-manager {
 
 header .wrapper .user-manager .signUp,
 .learn,
+.btn,
 .register {
   color: white;
   border: none;
@@ -167,7 +168,6 @@ h3 {
   line-height: 36px;
 }
 
-
 /* site footer styling */
 .siteFooter .wrapper {
   display: flex;
@@ -186,39 +186,222 @@ h3 {
   color: #717171;
 }
 
-.customerSection .wrapper{
-    display: flex;
-    justify-content: space-between;
-    gap: 78px;
-    align-items: center;
-    margin-block: 24px;
-    background-color: #f5f7fa;
-    padding-block: 50px;
-  
+/* customer section styling */
+
+.customerSection .wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 78px;
+  align-items: center;
+  margin-block: 24px;
+  background-color: #f5f7fa;
+  padding-block: 50px;
 }
-.customerSection .meet{
+.customerSection .meet {
   width: 748px;
   height: 324px;
   gap: 32px;
   /* padding-block: 50px; */
 }
 
-
-
-.customerSection .companyLogo{
-    display: flex;
-    gap: 16;
-    justify-content: space-between;
-   
+.customerSection .companyLogo {
+  display: flex;
+  gap: 16;
+  justify-content: space-between;
 }
-.customerSection .companyLogo .buttons{
-    background-color: transparent;
-    display: flex;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
-    color: #4CAF4F;
-    border: none;
+.customerSection .companyLogo .buttons {
+  display: flex;
+  border: none;
+  justify-content: space-between;
+  width: auto;
 }
 
+.btn {
+  background-color: #4caf4f;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  /* margin-right: 10px; */
+}
 
+.icon {
+  font-size: 20px;
+  color: #4caf4f;
+  padding: 20px;
+}
+
+/* More Info Section Styling */
+.moreInfo {
+  margin-block: 24px;
+  padding-block: 50px;
+  text-align: center;
+}
+
+.moreInfo > .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.moreInfo > .wrapper > .moreInfoTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.moreInfo > .wrapper > .moreInfoTitle > h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  cursor: pointer;
+  color: #4d4d4d;
+}
+.moreInfo > .wrapper > .moreInfoTitle > p {
+  width: 628px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #717171;
+}
+.moreInfo > .wrapper > .pictureInfo {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.moreInfo > .wrapper > .pictureInfo > .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.moreInfo > .wrapper > .pictureInfo > .card > .cardDescription {
+  width: 317px;
+  height: 176px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 8px 16px 0px #abbed166;
+  background: #f5f7fa;
+  position: absolute;
+  bottom: -70px;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.moreInfo > .wrapper > .pictureInfo > .card > .cardDescription > .readMore {
+  display: flex;
+  gap: 20px;
+}
+.moreInfo > .wrapper > .pictureInfo > .card > .cardDescription > h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #717171;
+}
+
+.accent {
+  color: #4caf4f;
+  font-size: 20px;
+  padding: 2px;
+}
+
+.readMore {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+/* CTA Section Styling */
+.cta {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-block-start: 100px;
+  padding-block: 54px;
+  background-color: var(--silver);
+}
+.ctaBtn {
+  margin-block: 24px;
+}
+
+/* footer styling */
+footer {
+  background-color: #263238;
+  padding-block: 54px;
+}
+
+footer > .wrapper {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  color: var(--silver);
+}
+
+footer > .wrapper > .logoCorner {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+footer > .wrapper > .logoCorner > .footer-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+footer > .wrapper > .logoCorner > .footer-texts > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+footer > .wrapper > .footer-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 30px;
+
+ 
+}
+
+footer > .wrapper > .footer-items > .footer-item > h4 {
+  margin-block-end: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #f5f7fa;
+}
+
+footer > .wrapper > .footer-items > .footer-item > ul {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+footer > .wrapper > .footer-items > .footer-item > ul > li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+}
+footer > .wrapper > .footer-items > .footer-item > .input {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 9px;
+  border-radius: 6px;
+
+}
+
+footer > .wrapper > .footer-items > .footer-item > .input > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+footer > .wrapper > .footer-items > .footer-item > .input > input::placeholder {
+ color: #f5f7fa;
+}
